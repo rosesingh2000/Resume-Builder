@@ -4,7 +4,7 @@ import AppBar from 'material-ui/AppBar';
 import TextField from 'material-ui/TextField';
 import RaisedButton from 'material-ui/RaisedButton';
 
-export class Sixth extends Component {
+export class Fifth extends Component {
     continue = e => {
         e.preventDefault();
         this.props.nextstep();
@@ -84,4 +84,4 @@ const styles = {
         margin: 15
     }
 }
-export default Sixth
+export default Fifth

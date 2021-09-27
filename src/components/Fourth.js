@@ -7,9 +7,9 @@ import RaisedButton from 'material-ui/RaisedButton';
 export class Fourth extends Component {
     continue = e => {
         e.preventDefault();
-        console.log('fghhjjjjj')
+        
         this.props.nextstep();
-        console.log('ttyfjdnx')
+        
         
     }
     back = e => {
